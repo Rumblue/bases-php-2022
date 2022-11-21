@@ -15,5 +15,23 @@ include "22-functions.php";
     <p>Exercice - enregistrez ce fichier sous 22-appel-{prenom}.php mettez ici un formulaire à 2 entrées et un select avec + - * /</p>
     <p>Lorsqu'on clique sur envoyer, le formulaire est envoyé par POST, et le résultat s'affiche en dessous</p>
     <p>Bonus, changez la fonction pour afficher par exemple :<br> 25/5 = 5</p>
+    <form action="" method="POST">
+        <input type="text" name="int1"/>
+        <select name="operation">
+            <option value="+"></option>
+            <option value="-"></option>
+            <option value="*"></option>
+            <option value="/"></option>
+
+        </select>
+        <input type="text" name="int2" />
+        <input type="submit" value="=" />
+    </form>
+    <?php 
+    if(isset($resultat)){
+        echo $resultat ;
+    }
+    ?>
+
 </body>
 </html>

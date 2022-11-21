@@ -1,0 +1,36 @@
+body {
+    background-image: url(./image/mijka.png);
+    
+}
+
+.bagarre {
+    background-image: url(./image/bag.jpg);
+}
+
+.nav {
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+}
+
+.nav li {
+    display: inline-block;
+    padding-inline: 60px;
+    font-size: 25px;
+    color: whitesmoke;
+    list-style: none;
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-size: 100px;
+    text-align: center;
+}

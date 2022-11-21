@@ -1,0 +1,166 @@
+body {
+    width: 1280px;
+    margin: auto;
+    background-color: white;
+}
+
+article {
+    background: lightgray;
+    border-radius:0px 0px 10px 10px;
+    max-width: 1280px;
+    padding:10px;
+}
+
+header {
+    background-image: url("./image/banniere.jpg");
+    width: 1280px;
+    height: 511px;
+    border-radius: 10px;
+   
+
+}
+
+.h1ban {
+    width: 300px;
+    height: 80px;
+    background-color: rgba(245, 245, 220, 0.750);
+    font-family:  Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 80px;
+    margin: auto;
+    border-radius: 5px;
+    position: relative;
+    top: 210px ;
+    
+    }
+
+.nav {
+    max-width: 1280px;
+    height: 50px;
+    background-color: #ccc;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav li { 
+    display: inline;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 40px;
+        
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    width: 160px;
+    height: 50px;
+    
+}
+
+.nav li a:hover {
+    color: white;
+    background-color: #A90331;
+   
+}
+
+h1 {
+    text-align: center;
+    background-color: #A90331;
+    height: 50px;
+    line-height: 50px;
+    max-width: 1280px;
+    border-radius:10px 10px 0 0;
+    margin: 0;
+    color: white;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+}
+
+.img {
+    display: block;
+    margin: auto;
+}
+
+p {
+    text-align: justify;
+    max-width: 1280px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    text-align: center;
+    
+}
+
+li {
+    list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: #A90331;
+
+}
+
+a:hover {
+    color: black;
+}
+
+form {
+    width: 620px;
+    margin: auto;
+    font-size: 20px;
+}
+
+label {
+    height: 30px;
+    width: 400px;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+}
+
+textarea {
+    height: 80px;
+    width: 400px;
+}
+
+button {
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.colonne {
+    column-count: 3;
+    margin-left: 21%;
+    padding: 10px;
+    
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+}
+
+table tr td img {
+    border: solid black 2px;
+}
+
+
+
